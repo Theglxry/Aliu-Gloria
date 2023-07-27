@@ -16,7 +16,7 @@ const Footer = () => {
                    {/* mail */}
           <div className="contact-icon-box">
             <span>
-               <a  href="mailto:glorysamuel75@gmail.com"> <i className="fa-solid fa-envelope-open-text"></i>   </a>
+               <a  href="mailto:glorysamuel75@gmail.com"> <i className="fa-solid fa-envelope-open-text"></i></a>
             </span>
           </div>
 
@@ -24,7 +24,9 @@ const Footer = () => {
                     {/* github */}
           <div className="contact-icon-box">
             <span>
+            <a href="https://github.com/Theglxry"> 
             <i className="fa-brands fa-github"></i>
+            </a>
             </span>
           </div>
 
@@ -32,14 +34,19 @@ const Footer = () => {
                      {/* linkedin */}
            <div className="contact-icon-box">
             <span>
+            <a href="https://www.linkedin.com/in/gloria-aliu-aa43871aa/">
             <i className="fa-brands fa-linkedin"></i>
+            </a>
             </span>
           </div>
 
                    {/* twitter */}
           <div className="contact-icon-box">
+
             <span>
+            <a href="https://twitter.com/theglxry/">
             <i className="fa-brands fa-twitter"></i>
+            </a>
             </span>
           </div>
 
