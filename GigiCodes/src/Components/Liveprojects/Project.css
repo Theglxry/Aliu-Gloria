@@ -1,0 +1,159 @@
+.project-wrapper {
+ padding: 2rem;
+ margin-top: 4rem;
+}
+
+
+.project-wrapper> h1 {
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.project-container {
+    width: 100%;
+  border-radius: 10px!important;
+}
+
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+
+  /* padding: 0.6rem 1.4rem; */
+  padding: 0.6rem 1rem;
+  
+
+
+  border: none;
+  background-image: linear-gradient(to right, #23083c 0%, #040f2b 51%, #031f2a 100%);
+}
+
+
+
+/** _______________ IMAGE STYLING ______ */
+
+/* @media screen and (max-width: 576px){} */
+/* 
+.img-holder {
+} */
+
+
+
+.project-img {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: top;
+    transition: all 1s ease;
+}
+
+
+.project-img img{
+    width: 100%;
+    display: block;
+}
+
+.project-img:hover{
+    background-position: bottom;
+}
+
+
+
+/** __________ DETAILS________  */
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    left: 30%;
+    max-width: 30rem;
+    margin:2rem auto;
+    color: rgb(218, 213, 213);
+    padding: 1rem;
+    text-align: center;
+
+
+    border: 2px solid red;
+
+  }
+  
+
+.p-title {
+ border-radius: 5px;
+ margin-bottom: 1rem;
+ /* margin-bottom: 3rem; */
+}
+
+.p-description {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.used-stack {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+       margin-bottom: 1rem;
+
+  }
+  .used-stack > p{
+    background: none;
+    border-radius: 100px !important;
+    /* padding: 1rem 1.3rem; */
+  }
+
+  .used-stack > p:not(:last-child) {
+    margin-right: 1rem; 
+  }
+  
+  .used-stack > p {
+    margin-bottom: 3rem;
+  }
+
+
+
+ 
+.links > a:not(:last-child) {
+    font-weight: 500;
+    gap: 15%;
+    text-decoration: none;
+
+    margin-right: 1rem; 
+}
+.links, .links a {
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+/* ____________MEDIA __________ */
+@media screen and (min-width:576px) {
+    
+    .project-wrapper{
+        width: 80%;
+    margin:2rem auto;
+    margin-bottom: 15rem;
+       
+    }
+    
+    .project{
+        /* width: 80%; */
+    /* margin:2rem auto; */
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-img {
+    height: 250px;
+    }
+}

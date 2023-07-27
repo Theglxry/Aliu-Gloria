@@ -1,0 +1,23 @@
+.s-wrapper {
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+
+.s-wrapper > h1 {
+    /* padding-left: 2rem; */
+    /* border: 2px solid rgb(85, 0, 128); */
+    text-align: center;
+color: #797575;
+    
+}
+
+.s-container {
+    gap: 5%;
+    /* border: 2px solid red; */
+}
+
+.s-container>img{
+    width: 3rem;
+    border-radius:100px;
+}
