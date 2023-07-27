@@ -13,7 +13,9 @@ const Projects = () => {
         <Project
           title="Photography Website"
           description="A simple yet exquisite website for a photography company that showcases the artistry of the photographer. "
-          imageUrl='./fsp.png'
+          // imageUrl='./fsp.png'
+          imageUrl='./fsp2.webp'
+
           techStack={['React', 'CSS']}
           githubLink="https://#"
           liveDemoLink="https://#"
@@ -34,7 +36,9 @@ const Projects = () => {
            <Project
           title="Uber Eats vendor clone"
           description=" Recreated uber eats vendor's landing page. "
-          imageUrl='./ubereats.png'
+          // imageUrl='./ubereats.png'
+          imageUrl='./ubereats.webp'
+
           techStack={['vanilla js', 'CSS']}
           githubLink="https://#"
           liveDemoLink="https://#"
@@ -44,7 +48,9 @@ const Projects = () => {
            <Project
           title="Personal portfolio"
           description=" Personal porfolio showcasing my technical skills and projects "
-          imageUrl='./pp.png'
+          // imageUrl='./pp.png'
+          imageUrl='./pp.webp'
+
           techStack={['React', 'CSS']}
           githubLink="https://#"
           liveDemoLink="https://#"
