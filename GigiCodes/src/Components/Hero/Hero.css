@@ -14,7 +14,7 @@ color: #797575;
   overflow: hidden;
   border: 2px solid rgb(82, 92, 13);
   border-radius: 15rem 15rem 15rem 15rem ;
-  background-image: url(./my-img-copy.jpeg);
+  background-image: url('/my-img-copy.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

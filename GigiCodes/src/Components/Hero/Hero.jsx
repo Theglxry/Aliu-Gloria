@@ -14,7 +14,6 @@ const Hero = () => {
         {/* avatar */}
         <div className="h-left">
           <div className="flexColStart img-container">
-            {/* <img src='./my-img.jpeg' alt='avatar' /> */}
           </div>
           <h1 className="flexCenter">Frontend developer 👋🏼</h1>
         </div>
