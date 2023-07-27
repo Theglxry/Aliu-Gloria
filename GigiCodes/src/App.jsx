@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Skills from "./Components/Skills/Skills";
-import About from "./components/About/About";
+import Bio from "./Components/Bio/Bio";
 import ProjectData from "./Components/Liveprojects/ProjectData";
 import Footer from "./Components/Footer/Footer";
 
@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
-      <About />
+      <Bio />
       <ProjectData />
       <Footer />
 
