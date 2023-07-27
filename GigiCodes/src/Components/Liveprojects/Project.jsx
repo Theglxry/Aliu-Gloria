@@ -1,48 +1,3 @@
-// import "./Project.css";
-
-// const Projects = () => {
-//   return (
-//     <section className="project-wrapper">
-//       <h1>Projects</h1>
-
-//       <div className="project-container">
-
-//            <div className="projects">
-
-
-//                <div className="img-holder">
-//                  <div className="project-img"> <a>  <img />  </a> </div>
-//                 </div>
-
-
-
-//                 <div className="project-details">
-//                   <h3 className="p-title"> Personal portfolio </h3>
-
-//                    <p className="p-description"></p>
-
-//                     <div className="used-stack">
-//                        <p>react</p>
-//                        <p>css</p>
-//                    </div>
-                     
-//                      <div className="links">
-//                       <a> code github link </a>
-//                      <a> live demo </a>
-//                     </div>
-//                </div>
-//           </div>
-         
-
- 
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
- 
-
 import PropTypes from 'prop-types';
 
 const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemoLink }) => {
@@ -52,10 +7,10 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
     return (
     <div className="project" >
       <div className="img-holder">
-         <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
+         {/* <a href={liveDemoLink} target="_blank" rel="noopener noreferrer"> */}
             <div className="project-img" style={{ backgroundImage: `url(${imageUrl})`}}>
             </div>
-          </a>
+          {/* </a> */}
       </div>
 
 
