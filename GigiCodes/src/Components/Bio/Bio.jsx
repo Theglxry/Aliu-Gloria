@@ -10,7 +10,7 @@ import './Bio.css'
 const Bio = () => {
 
     return (
-        <section className='about-wrapper'>
+        <section id='bio-section' className='about-wrapper'>
           <div className='about-container'>
            
            <h1> About Me : </h1>

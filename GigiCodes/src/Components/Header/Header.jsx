@@ -1,5 +1,11 @@
+import { Link } from 'react-scroll';
 import { useState } from 'react';
 import './Header.css';
+
+
+
+
+
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,22 +16,45 @@ const Header = () => {
 
   return (
     <>
-      <nav className='glass-bg'>
-      <div className='logo-container'> 
-        <a href='index.html'>
-          <h1 className='logo'> ALIU <br/> GLORIA </h1>
-        </a>
+        <nav  className= "glass-bg">
+        <div className='logo-container'>
+          <Link to="hero-section" smooth={true} duration={500} offset={-70}>
+            <h1 className='logo'> ALIU <br/> GLORIA </h1>
+          </Link>
         </div>
 
         
 
         <div className={`navbar ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
           <ul id='navbar'>
-            <li><a className='active' href='index.html'> HOME </a></li>
-            <li><a href='index.html'> About </a></li>
-            <li><a href='index.html'> Projects </a></li>
-            <li><a href='index.html'> Get in touch </a></li>
-            {/* <li><a href='index.html'> CONTACT </a></li> */}
+            <li> 
+            <Link to="hero-section" smooth={true} duration={500} offset={-70}>
+            HOME
+            </Link>
+
+            </li>
+
+
+
+            <li>
+            <Link to="bio-section" smooth={true} duration={500} offset={-70}>
+                About
+              </Link>
+            </li>
+
+
+
+            <li>
+            <Link to="project-section" smooth={true} duration={500} offset={-70}>           
+            Projects           
+            </Link>           
+            </li>
+
+            <li>
+               <Link to="footer-section" smooth={true} duration={500} offset={-70}>
+               Get in touch 
+              </Link>
+            </li>
           </ul>
         </div>
 

@@ -5,7 +5,12 @@ nav {
   background: #072340;
   color: #fff;
   padding: 2rem;
-  /* padding: 20px 80px; */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; 
 }
 
 .logo-container {
@@ -15,12 +20,15 @@ nav {
 
 .logo {
   font-weight: 600;
+  cursor: pointer;
 }
+
+
 
 #navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
 }
 
 #navbar li {
@@ -38,6 +46,7 @@ nav {
 
 #navbar li a:hover,
 #navbar li a.active {
+  cursor: n;
   /* color: #456e62; */
   border-bottom: 2px solid #6a0888;
 }
@@ -63,9 +72,8 @@ nav {
     /* background: #2a3239; */
     background: none;
 
-    /* box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1); */
     padding: 40px 0 0 10px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transition 3s ease-in, opacity 0.3s ease;
     transform: translateX(100%);
   }
 
@@ -92,10 +100,15 @@ nav {
 
   #mobile {
     display: block;
+
+
   }
 
   #mobile i {
     font-size: 24px;
     cursor: pointer;
+
+  transition: 2s ease-in-out;
+
   }
 }

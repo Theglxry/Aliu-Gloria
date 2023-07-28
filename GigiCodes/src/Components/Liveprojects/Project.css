@@ -51,7 +51,9 @@
     box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75);
     background-size: cover;
     background-position: top;
-    transition: all 1s ease;
+
+    transform: translateY(0%);
+    transition: all 5s ease-in-out 0s;
 }
 
 

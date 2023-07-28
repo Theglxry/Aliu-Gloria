@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <section >
+    <section id="footer-section" >
     <div className="glass-bg footer-wrapper">
       <div className="f-container">
         <h1 id="title">

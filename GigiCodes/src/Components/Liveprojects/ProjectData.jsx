@@ -4,7 +4,7 @@ import './Project.css';
 
 const Projects = () => {
   return (
-    <section className="project-wrapper">
+    <section id='project-section' className="project-wrapper">
       <h1>PROJECTS</h1>
 
 
@@ -53,7 +53,7 @@ const Projects = () => {
 
           techStack={['React', 'CSS']}
           githubLink="https://#"
-          liveDemoLink="https://#"
+          liveDemoLink="https://https://theglxry.vercel.app/"
         />
 
 

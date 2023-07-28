@@ -7,7 +7,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero-wrapper">
+    <section id="hero-section" className="hero-wrapper">
       {/* <Header /> */}
 
       <div className="paddings innerWidth flexCenter hero-container">
