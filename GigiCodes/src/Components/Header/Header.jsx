@@ -28,7 +28,7 @@ const Header = () => {
         <div className={`navbar ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
           <ul id='navbar'>
             <li> 
-            <Link to="hero-section" smooth={true} duration={500} offset={-70}>
+            <Link to="hero-section" smooth={true} duration={500} offset={-70} className='active'>
             HOME
             </Link>
 

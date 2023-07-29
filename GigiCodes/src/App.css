@@ -1,6 +1,8 @@
  .App{
  position: relative;
  background: url('/nnnoise.svg');
+
+ padding-top: 12rem;
  }
 
 

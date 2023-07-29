@@ -1,5 +1,8 @@
 .hero-wrapper {
  width: 100%;
+ /* border: 2px solid red; */
+ /* margin-top: 10rem; */
+
 }
 
 .h-left > h1 {
@@ -62,10 +65,16 @@ color: #797575;
 /***************** Media Queries *****************/
 
 @media screen and (min-width: 576px){
+  
+  .hero-wrapper {
+    border: none;
+    /* border: 2px solid red; */
+   }
+  
+  
   .img-container{
     width: 20rem !important;
     height: 25rem !important;
-      
     }
 }
 

@@ -1,6 +1,6 @@
 .project-wrapper {
  padding: 2rem;
- margin-top: 4rem;
+ margin-top: 5rem;
 }
 
 
@@ -143,15 +143,12 @@
     
     .project-wrapper{
         width: 80%;
-    margin:2rem auto;
+    margin:5rem auto;
     margin-bottom: 15rem;
        
     }
     
     .project{
-        /* width: 80%; */
-    /* margin:2rem auto; */
-        
         grid-template-columns: repeat(2, 1fr);
     }
 
