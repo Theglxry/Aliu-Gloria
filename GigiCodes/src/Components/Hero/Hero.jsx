@@ -1,5 +1,4 @@
 import "./Hero.css";
-// import Header from "../Header/Header";
 
 
 
@@ -9,9 +8,6 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <section id="hero-section" className="hero-wrapper">
-     {/* <Header /> */}
-
-      {/* <Header /> */}
 
       <div className="paddings innerWidth flexCenter hero-container">
         {/* avatar */}

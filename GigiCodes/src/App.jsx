@@ -25,7 +25,7 @@ function App() {
       <Footer />
 
 
-
+      {/* animation */}
       <div className="area">
         <ul className="circles">
             <li></li>

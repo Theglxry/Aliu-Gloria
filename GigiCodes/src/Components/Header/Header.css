@@ -70,63 +70,35 @@ nav {
   }
 
 
-  /* #navbar {
-    display: none;
-    opacity: 0;
-    position: fixed;
-    top: 50px;
-    right: 0;
-    width: 300px;
-    height: 50vh;
-    padding: 40px 0 40px 20px;
-    transition: 3s ease-in, opacity 0.3s ease;
-    transform: translateX(100%);
-  }
-
-  .mobile-menu-open #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    transform: translateX(0);
-    transition: all 2s ease-in;
-    opacity: 1;
-
-    background: rgba(91, 7, 7, 0.46);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(91, 7, 7, 0.3);
-  }
-
-    */
+ 
  
   
     #navbar {
       display: flex;
-      flex-direction: column; /* Changed to column for mobile menu */
+      flex-direction: column;  
       justify-content: space-between;
-      align-items: center; /* Changed to center for mobile menu */
+      align-items: center; 
       position: fixed;
-      top: 70px; /* Adjust as needed based on your design */
+      top: 70px; 
       right: 0;
       width: 300px;
       height: 50vh;
       padding: 40px 0 40px 20px;
-      transform: translateX(100%); /* Initial position outside the screen */
+      transform: translateX(100%); 
       background: rgba(91, 7, 7, 0.46);
       border-radius: 16px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       border: 1px solid rgba(91, 7, 7, 0.3);
-      transition: transform 0.3s ease-in-out; /* Added transition for opening/closing */
+      transition: transform 0.3s ease-in-out;  
     }
   
-    /* Show the mobile menu when the class mobile-menu-open is applied */
+
+
+    
     .mobile-menu-open #navbar {
-      transform: translateX(0); /* Slide in the mobile menu */
+      transform: translateX(0); /* Slide in mobile menu */
     }
   
 

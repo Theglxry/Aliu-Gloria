@@ -6,13 +6,13 @@ import './Header.css';
 
 
 
-
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleMobileMenuClick = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
+  
 
   return (
     <>
@@ -28,7 +28,7 @@ const Header = () => {
         <div className={`navbar ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
           <ul id='navbar'>
             <li> 
-            <Link to="hero-section" smooth={true} duration={500} offset={-70} className='active'>
+            <Link to="hero-section" smooth={true} duration={500} offset={-70}>
             HOME
             </Link>
 
@@ -45,7 +45,7 @@ const Header = () => {
 
 
             <li>
-            <Link to="project-section" smooth={true} duration={500} offset={-70}>           
+            <Link to="project-section" smooth={true} duration={500} offset={-70}   className='active'>           
             Projects           
             </Link>           
             </li>
@@ -57,6 +57,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
+
 
         <div id='mobile' onClick={handleMobileMenuClick}>
           {/* Toggle mobile menu icon */}

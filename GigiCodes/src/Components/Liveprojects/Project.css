@@ -35,14 +35,6 @@
 
 
 /** _______________ IMAGE STYLING ______ */
-
-/* @media screen and (max-width: 576px){} */
-/* 
-.img-holder {
-} */
-
-
-
 .project-img {
     position: relative;
     height: 200px;
@@ -142,8 +134,8 @@
 @media screen and (min-width:576px) {
     
     .project-wrapper{
-        width: 80%;
-    margin:5rem auto;
+    width: 80%;
+    margin:2rem auto;
     margin-bottom: 15rem;
        
     }
