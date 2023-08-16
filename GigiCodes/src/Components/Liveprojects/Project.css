@@ -137,10 +137,10 @@
     width: 80%;
     margin:2rem auto;
     margin-bottom: 15rem;
-       
     }
     
     .project{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 

@@ -7,10 +7,8 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
     return (
     <div className="project" >
       <div className="img-holder">
-         {/* <a href={liveDemoLink} target="_blank" rel="noopener noreferrer"> */}
             <div className="project-img" style={{ backgroundImage: `url(${imageUrl})`}}>
             </div>
-          {/* </a> */}
       </div>
 
 
