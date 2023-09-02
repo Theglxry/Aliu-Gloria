@@ -1,4 +1,5 @@
 import "./Footer.css";
+import '../Skills/Skills.css';
 
 const Footer = () => {
   return (

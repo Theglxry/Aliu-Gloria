@@ -22,18 +22,30 @@ h1#title {
 }
 
 .contact-icon-box {
+  align-content: center;
   align-items: center;
   display: flex;
   gap: 1.5rem;
+  
 }
 
-.contact-icon-box span {
+/* .contact-icon-box span {
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
   border-radius: 50%;
   padding: 0.5rem;
-}
+} */
 
+.contact-icon-box span {
+
+  width: 4rem;
+  /* width: 4rem;
+
+
+  border-radius: 5px;
+  background: #230315;
+  box-shadow: 15px 15px 30px rgb(3, 3, 3), -15px -15px 30px rgb(6, 6, 6); */
+}
 .contact-icon-box span i {
   color: rgb(9, 49, 95);
 }
@@ -65,4 +77,16 @@ h1#title {
 }
 
 
+.contact-icon-box {
+  gap: 2%;
+
 }
+.contact-icon-box span i {
+
+  width: 30%;
+border: 2px solid red;
+}
+
+}
+
+

@@ -1,4 +1,6 @@
 // import React from 'react';
+//GALLERY TO BE RENDERED
+
 import Project from './Project';
 import './Project.css';
 
@@ -14,11 +16,11 @@ const Projects = () => {
           title="Photography Website"
           description="A simple yet exquisite website for a photography company that showcases the artistry of the photographer. "
           // imageUrl='./fsp.png'
-          imageUrl='./fsp2.webp'
+          imageUrl='./fsp4.webp'
 
           techStack={['React', 'CSS']}
-          githubLink="https://#"
-          liveDemoLink="https://#"
+          githubLink="https://github.com/Theglxry/photography-website"
+          liveDemoLink="https://photography-website-lac.vercel.app/"
         />
 
 
@@ -28,8 +30,8 @@ const Projects = () => {
           description="A fun and interactive implementation of the classic game 'Rock Paper Scissors.' The game is built using JS and provides an engaging user experience"
           imageUrl='./r-p-s-game.png'
           techStack={['Vanilla JS', 'CSS']}
-          githubLink="https://#"
-          liveDemoLink="https://#"
+          githubLink="https://github.com/Theglxry/r.p.s-game"
+          liveDemoLink="https://rock-paper-scissors-djs.netlify.app/"
         />
 
 

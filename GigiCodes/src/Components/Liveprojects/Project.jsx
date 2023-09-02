@@ -1,3 +1,5 @@
+// GALLERY DATA
+
 import PropTypes from 'prop-types';
 
 const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemoLink }) => {
@@ -26,7 +28,7 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
 
         <div className="links">
           <a className='btn-bg button' href={githubLink} target="_blank" rel="noopener noreferrer">
-              Code 
+              Github 
 
             <i className="fa-brands fa-github"></i>
           </a>
