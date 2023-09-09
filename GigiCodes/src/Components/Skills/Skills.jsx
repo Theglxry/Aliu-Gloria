@@ -32,11 +32,7 @@ const Skills = () => {
         <div className="skills"> 
         <img src="./bootstrap.png" alt="bootstrap"  width={'100%'} />
         </div> 
-
-
         {/* <img src="./js.png" alt="" /> */}
-          
-       
       </div>
 
 

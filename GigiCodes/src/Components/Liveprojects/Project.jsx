@@ -28,7 +28,7 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
 
         <div className="links">
           <a className='btn-bg button' href={githubLink} target="_blank" rel="noopener noreferrer">
-              Github 
+              Code 
 
             <i className="fa-brands fa-github"></i>
           </a>
