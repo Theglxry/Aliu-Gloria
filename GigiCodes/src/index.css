@@ -26,8 +26,16 @@ a {
  
  body{
   background: black;
+  /* overflow: hidden; */
  }
 
+ body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  scrollbar-width: none;
+}
 .paddings {
   padding: 1.5rem;
 }

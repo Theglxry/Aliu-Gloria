@@ -74,7 +74,7 @@
     text-align: center;
 
 
-    border: 2px solid red;
+    border: 2px solid rgb(30, 255, 0);
 
   }
   
@@ -137,11 +137,16 @@
     width: 80%;
     margin:2rem auto;
     margin-bottom: 15rem;
+
+    display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
     
     .project{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
+        /* border: 2px solid red; */
     }
 
     .project-img {

@@ -1,5 +1,5 @@
 .about-wrapper {
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
     padding: 2rem;
  }
  
@@ -25,9 +25,20 @@
  /* for desktop  */
  @media screen and (min-width:576px) {
  .about-wrapper {
-    width: 80%;
-    margin: 12rem auto;
+    width: 50%;
+    margin: 10rem auto;
+
+    /* border: 2px solid red; */
  }
  
+ .about-container h1 {
+   font-size: 24px;
+ }
+
+ .about-container p {
+   font-size: 20px;
+   line-height: 30px;
+
+ }
  
  }
