@@ -1,6 +1,7 @@
 .project-wrapper {
  padding: 2rem;
  margin-top: 5rem;
+ /* border: 2px solid red; */
 }
 
 
@@ -134,18 +135,25 @@
 @media screen and (min-width:576px) {
     
     .project-wrapper{
-    width: 80%;
-    margin:2rem auto;
+    width: 100%;
+    margin:10rem auto;
     margin-bottom: 15rem;
 
-    display: grid;
-        grid-template-columns: repeat(2, 2fr);
+
+    /* display: grid; */
+        /* grid-template-columns: repeat(2, 2fr); */
     }
-    
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      /* margin-right: 2rem; */
+    }
     .project{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
+        gap: 2rem;
+      margin: 2rem;
+        
         /* border: 2px solid red; */
     }
 
