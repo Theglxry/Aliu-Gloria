@@ -16,6 +16,9 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
 
 
 
+
+
+
       <div className="glass-bg project-details">
         <h3 className="p-title">{title}</h3>
         <p className="p-description">{description}</p>
@@ -42,6 +45,8 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
 
 
       </div>
+
+      
     </div>
   );
 };

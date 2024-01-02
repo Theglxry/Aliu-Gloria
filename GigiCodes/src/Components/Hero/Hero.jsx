@@ -19,6 +19,10 @@ const Hero = () => {
       <section>
         <Bio />
       </section>
+
+
+      automatic slides of technologies icon
+      
     </section>
   );
 };

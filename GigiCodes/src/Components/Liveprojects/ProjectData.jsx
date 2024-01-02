@@ -1,13 +1,21 @@
 // import React from 'react';
 //GALLERY TO BE RENDERED
 
+// import { useState } from "react";
 import Project from "./Project";
+// import project from "./Project";
+
 import "./Project.css";
 
+
+
 const Projects = () => {
+// const [items, setItems] = useState(project)
+
   return (
     <section id="project-section" className="project-wrapper">
       {/* <h1>PROJECTS</h1> */}
+
 
       {/* project 1 */}
       <div className="project-container">
@@ -39,15 +47,14 @@ const Projects = () => {
           liveDemoLink="https://rock-paper-scissors-djs.netlify.app/"
         />
 
-        <Project
+        {/* <Project
           title="Uber Eats vendor clone"
           description=" Recreated uber eats vendor's landing page. "
-          // imageUrl='./ubereats.png'
           imageUrl="./ubereats.webp"
           techStack={["vanilla js", "CSS"]}
           githubLink="https://#"
           liveDemoLink="https://#"
-        />
+        /> */}
 
         <Project
           title="Personal portfolio"
