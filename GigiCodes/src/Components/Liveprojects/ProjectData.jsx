@@ -22,7 +22,6 @@ const Projects = () => {
         <Project
           title="Photography Website"
           description="A simple yet exquisite website for a photography company that showcases the artistry of the photographer. "
-          // imageUrl='./fsp.png'
           imageUrl="./fsp4.webp"
           techStack={["React", "CSS"]}
           githubLink="https://github.com/Theglxry/photography-website"
@@ -30,12 +29,12 @@ const Projects = () => {
         />
 
         <Project
-          title="Language Translator App"
-          description="A translator app that automatically detects the language input and translates it to a language of choice"
-          imageUrl="./trans-web.png"
+          title="An electric car website"
+          description="Sustainable electric mobility, showcasing innovation and eco-friendly driving experiences. Explore our vision! "
+          imageUrl="./chargecars.webp"
           techStack={["React", "Tailwind"]}
           githubLink="https://github.com/Theglxry/"
-          liveDemoLink="https://multilingo.vercel.app/"
+          liveDemoLink="https://charge-cars.vercel.app/"
         />
 
         <Project
@@ -59,7 +58,6 @@ const Projects = () => {
         <Project
           title="Personal portfolio"
           description=" Personal porfolio showcasing my technical skills and projects "
-          // imageUrl='./pp.png'
           imageUrl="./pp.webp"
           techStack={["React", "CSS"]}
           githubLink="https://#"
