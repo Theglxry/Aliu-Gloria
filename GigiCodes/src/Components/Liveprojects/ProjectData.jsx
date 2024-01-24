@@ -46,14 +46,14 @@ const Projects = () => {
           liveDemoLink="https://rock-paper-scissors-djs.netlify.app/"
         />
 
-        {/* <Project
+        <Project
           title="Uber Eats vendor clone"
           description=" Recreated uber eats vendor's landing page. "
           imageUrl="./ubereats.webp"
           techStack={["vanilla js", "CSS"]}
           githubLink="https://#"
-          liveDemoLink="https://#"
-        /> */}
+          liveDemoLink="https://movie-box-blond.vercel.app/"
+        />
 
         <Project
           title="Personal portfolio"
