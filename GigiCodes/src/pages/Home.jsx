@@ -11,16 +11,6 @@ import { Routes, Route, useLocation } from "react-router-dom";
 function Home() {
   return (
     <>
-      {/* <div className="App">
-        <Header />
-        <Hero />
-        <Skills />
-        <Bio />
-        <ProjectData />
-        <Footer />
-      </div> */}
-
-
       <section className="App">
       <div>
       <Header />

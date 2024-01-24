@@ -14,19 +14,14 @@ const Project = ({ title, description, imageUrl, techStack, githubLink, liveDemo
       </div>
 
 
-
-
-
-
-
       <div className="glass-bg project-details">
         <h3 className="p-title">{title}</h3>
         <p className="p-description">{description}</p>
-        <div className="used-stack">
+        {/* <div className="used-stack">
           {techStack.map((tech, index) => (
             <p className='btn-br' key={index} style={{ display: 'inline-block'}}>{tech}</p>
           ))}
-        </div>
+        </div> */}
 
 
         <div className="links">

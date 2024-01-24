@@ -42,14 +42,14 @@ const Projects = () => {
           description="A fun and interactive implementation of the classic game 'Rock Paper Scissors.' The game is built using JS and provides an engaging user experience"
           imageUrl="./r-p-s-game.png"
           techStack={["Vanilla JS", "CSS"]}
-          githubLink="https://github.com/Theglxry/r.p.s-game"
+          githubLink="#"
           liveDemoLink="https://rock-paper-scissors-djs.netlify.app/"
         />
 
         <Project
-          title="Uber Eats vendor clone"
-          description=" Recreated uber eats vendor's landing page. "
-          imageUrl="./ubereats.webp"
+          title="Movie box app"
+          description="A movie app that fetches real time data. "
+          imageUrl="./movie-box.webp"
           techStack={["vanilla js", "CSS"]}
           githubLink="https://#"
           liveDemoLink="https://movie-box-blond.vercel.app/"
